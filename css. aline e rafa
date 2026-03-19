@@ -1,0 +1,19 @@
+<html>
+<head>
+<!-- JEITOS DE CSS -->
+ <!-- dentro da tag styl, no proprio html-->
+<style>
+#RafaAline{ color:aquamarine; font-size:220%;}
+/*  usado para estilizar elementos: */
+body { background-color: black;
+}
+</style>
+<!-- neste caso só funciona com algum arquivo, aqui está sem, então sera apenas o código-->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- css inline é colocado direto na tag-->
+<center><p id="RafaAline">Olá Mundo!</p>
+<p style="color: aquamarine; font-size:220%"> Olá Mundo </p>
+</body>
+</html>

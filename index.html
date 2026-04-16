@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Helvetica;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 800px;
+            margin: auto;
+        }
+        header, nav, section, article, aside, footer {
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header {
+            background-color: red;
+        }
+        nav {
+            background-color: rgb(221, 118, 0);
+            padding:  5px 10px;
+        
+        }
+        section {
+            background-color: rgb(255, 58, 196);
+            margin-top: 30px;
+            flex: 1;
+        }
+        article {
+            background-color: rgb(113, 202, 53);
+            margin-top: 5px;
+            flex: 1;
+        }
+        aside {
+            background-color: rgb(255, 232, 103);
+            min-height: 550px;
+        }
+        footer {
+            background-color: rgb(4, 89, 185);
+            margin: 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .meio {
+            display: flex;
+            gap: 10px;
+        }
+        .esquerda {
+            display: flex;
+            flex-direction: column;
+            flex: 2;
+        }
+        .direita {
+            flex: 1;
+        }
+    </style>
+</head>
+<body bgcolor="black"></body>
+<body>
+    <div class="container">
+        <header>HEADER DA RAFA E DA ALINE!</header>
+        <nav>NAV!</nav>
+        <div class="meio">
+            <div class="esquerda">
+                <section>SECTION!</section>
+                <article>ARTICLE!</article>
+            </div>
+            <aside>ASIDE!</aside>
+        </div>
+        <footer>FOOTER!</footer>
+    </div>
+</body>
+</html>
